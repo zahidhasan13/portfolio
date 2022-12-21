@@ -483,8 +483,9 @@ footer p {
   outline: none;
   cursor: pointer;
 }
-.times img {
-  width: 30px;
+.times i {
+  font-size: 2rem;
+  color: var(--light);
 }
 .mobile_nav ul {
   text-align: center;
@@ -514,6 +515,7 @@ footer p {
     display: flex;
   }
   header {
+    background: #000;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 89%, 0 100%);
   }
   header .hero {
